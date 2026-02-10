@@ -24,7 +24,7 @@ export default function Header() {
       <h1>Shadcn and radix component with Next.js</h1>
       <p>
         {" "}
-        <a href="https://tomaslonnblad-tl88-i-izc3.bolt.host/dashboard/motionx/app">
+        <a href="https://tomaslonnblad-tl88-i-n5nj.bolt.host/dashboard/motionx/app">
          This page demonstrates the usage of the 3D nextjs and on html
           and Gesap with the designm tool tailwind. Framer Motion.
         Different examples.
