@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { useState, useEffect } from "react";
 
 
 import Header from "@/components/Header";
@@ -10,8 +11,11 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Home() {
   const { scrollY } = useScroll();
+  const [documentHeight, setDocumentHeight] = useState(0);
 
-  const documentHeight = document.documentElement.scrollHeight;
+  useEffect(() => {
+    setDocumentHeight(document.documentElement.scrollHeight);
+  }, []);
 
   return (
     <div className="min-h-screen ">
